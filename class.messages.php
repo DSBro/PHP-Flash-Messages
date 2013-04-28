@@ -220,7 +220,7 @@ class Messages {
 		return true;
 	}
 	
-	public function __toString() { return $this->hasMessages();	}
+	public function __toString() { return $this->hasMessages(); }
 
 	public function __destruct() {
 		//$this->clear();
